@@ -3,7 +3,53 @@
 
 ###################################################
 # core-libart.jar & core-oj.jar
-java(\..*)?
+java\.awt\.font
+java\.beans
+java\.io
+java\.lang
+java\.lang\.annotation
+java\.lang\.constant
+java\.lang\.invoke
+java\.lang\.foreign
+java\.lang\.ref
+java\.lang\.reflect
+java\.lang\.runtime
+java\.math
+java\.net
+java\.nio
+java\.nio\.file
+java\.nio\.file\.spi
+java\.nio\.file\.attribute
+java\.nio\.channels
+java\.nio\.channels\.spi
+java\.nio\.charset
+java\.nio\.charset\.spi
+java\.security
+java\.security\.acl
+java\.security\.cert
+java\.security\.interfaces
+java\.security\.spec
+java\.sql
+java\.text
+java\.text\.spi
+java\.time
+java\.time\.chrono
+java\.time\.format
+java\.time\.temporal
+java\.time\.zone
+java\.util
+java\.util\.concurrent
+java\.util\.concurrent\.atomic
+java\.util\.concurrent\.locks
+java\.util\.function
+java\.util\.jar
+java\.util\.logging
+java\.util\.prefs
+java\.util\.random
+java\.util\.regex
+java\.util\.spi
+java\.util\.stream
+java\.util\.zip
 # TODO: Remove javax.annotation.processing if possible, see http://b/132338110:
 javax\.annotation\.processing
 javax\.crypto
@@ -27,7 +73,23 @@ javax\.xml\.transform\.sax
 javax\.xml\.transform\.stream
 javax\.xml\.validation
 javax\.xml\.xpath
-jdk\..*
+jdk\.internal
+jdk\.internal\.access
+jdk\.internal\.event
+jdk\.internal\.foreign
+jdk\.internal\.foreign\..*
+jdk\.internal\.invoke
+jdk\.internal\.math
+jdk\.internal\.misc
+jdk\.internal\.ref
+jdk\.internal\.reflect
+jdk\.internal\.util
+jdk\.internal\.util\.jar
+jdk\.internal\.util\.random
+jdk\.internal\.vm
+jdk\.internal\.vm\.annotation
+jdk\.net
+jdk\.random
 org\.w3c\.dom
 org\.w3c\.dom\.ls
 org\.w3c\.dom\.traversal
@@ -208,10 +270,9 @@ org\.chromium\.arc\..*
 com\.google\.wear
 com\.google\.wear\..*
 
-###################################################
-# Packages used for display offload in Wear OS
-vendor\.google_clockwork\.displayoffload3
-vendor\.google_clockwork\.displayoffload3\..*
+# Lineage adds
+lineageos\.platform
+org\.lineageos\.platform\.internal
 
 # MTK adds
 com\.mediatek
@@ -225,33 +286,18 @@ vendor\.mediatek\..*
 com\.nothing
 com\.nothing\..*
 
-# Lineage adds
-lineageos\.platform
-org\.lineageos\.platform\.internal
-vendor\.lineage\..*
-vendor\.lineage\.health.*
-vendor\.lineage\.livedisplay.*
-vendor\.lineage\.touch.*
-
 # NV adds
 com\.nvidia
 com\.nvidia\..*
-###################################################
 
-# Voltage adds
-com.voltage.*
-vendor.voltage.*
-
-###################################################
-# CodeAurora IMS functionality needed by frameworks/opt/telephony
-# as part of "ims-ext-common"
-org\.codeaurora\.ims.*
-# telephony-ext:
-org\.codeaurora\.internal.*
-
-###################################################
-# IFAA Manager used for Alipay and/or WeChat payment
-org\.ifaa\.android\.manager.*
+# OPLUS adds
+com\.oplus\..*
+net\.oneplus\..*
+oplus\..*
+vendor\.oplus\..*
+com\.oneplus\..*
+com\.thundersoft\..*
+vendor\.oneplus\..*
 
 # QC adds
 com.qualcomm.qti
@@ -267,17 +313,13 @@ qcom.fmradio
 org\.ifaa\.android\.manager.*
 
 ###################################################
-
 # LMODroid adds
 com\.libremobileos.*
 
 ###################################################
-# ONEPLUS
-com.oplus.*
-net.oneplus.*
-oplus.*
-vendor.oplus.*
-com.oneplus.*
-vendor.oneplus.*
+# Camera Extensions
+com.camera.camera2.extensions.*
 
 ###################################################
+# Xiaomi adds
+com\.xiaomi\..*
