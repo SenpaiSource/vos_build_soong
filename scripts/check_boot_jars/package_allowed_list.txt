@@ -273,6 +273,10 @@ com\.google\.wear\..*
 # Lineage adds
 lineageos\.platform
 org\.lineageos\.platform\.internal
+vendor\.lineage
+vendor\.lineage\..*
+org\.lineageos
+org\.lineageos\..*
 
 # MTK adds
 com\.mediatek
@@ -289,6 +293,11 @@ com\.nothing\..*
 # NV adds
 com\.nvidia
 com\.nvidia\..*
+
+###################################################
+# Voltage adds
+com\.voltage
+com\.voltage\..*
 
 # OPLUS adds
 com\.color\.inner\..*
@@ -317,7 +326,8 @@ org\.ifaa\.android\.manager.*
 
 ###################################################
 # LMODroid adds
-com\.libremobileos.*
+com\.libremobileos
+com\.libremobileos\..*
 
 ###################################################
 # Camera Extensions
